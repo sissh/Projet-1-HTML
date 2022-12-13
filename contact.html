@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Mr.Claw - Attorney at law</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body>
+    <!--menu avec boutons dropdown-->
+    <div class="menu">
+        <a href="index.html" id="home"><img src="images/home.png" /></a> 
+
+        <div class="dropdown" id="aboutus">
+            <button><a href="aboutus.html">About Us</a></button>
+            <div class="dropdown-content">
+                <a href="history.html">History</a>
+                <a href="staff.html">Staff</a>
+            </div>
+        </div>
+
+        <a href="mission.html">Mission</a>
+        
+        <div class="dropdown">
+            <button><a href="corporate.html">Corporate Practices</a></button>
+            <div class="dropdown-content" id="products">
+                <a href="criminal.html">Criminal Practices</a>
+            </div>
+        </div>
+        
+        <div class="dropdown">
+            <button><a href="whyclaw.html">Why pick Claw?</a></button>
+            <div class="dropdown-content" id="whyus">
+                <a href="portfolio.html">Portfolio</a>
+            </div>
+        </div>
+        
+        <div class="dropdown">
+            <button><a href="contact.html">Contact</a></button>
+            <div class="dropdown-content" id="contact">
+                <a href="location.html">Location</a>
+            </div>
+        </div>
+    </div>
+    <!--------------------------->
+    
+    <div class="main">
+        <h1>Want Mr.Claw's legal advice? Contact us and we'll reply with the relevant information as soon as possible.</h1>
+        <div class="contact-form">
+            <form name="contact" action="http://vip.groupehn.com:20003/html/infospost.php" method="post">
+                <label for="lastname">Last Name: </label>
+                <input class="lastname" id="lastname" type="text" name="lastname" /><br><br>
+                
+                <label for="firstname">First Name: </label>
+                <input class="firstname" id="firstname" type="text" name="firstname" /><br><br>
+    
+                <label for="mail">E-Mail: </label>
+                <input class="mail" id="mail" type="email" name="mail" placeholder="yourmail@yahoo.com" /><br><br>
+    
+                <label for="request">Request: </label>
+                <textarea class="request" name="request" id="request" cols="66" rows="10"></textarea><br>
+                <input type="Submit">
+            </form>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <hr>
+        <p>Copyright 2022</p>
+    </div>
+
+</body>
